@@ -1,0 +1,8 @@
+{
+  "indexes": [
+    { "collectionGroup": "sales", "queryScope": "COLLECTION", "fields": [{ "fieldPath": "businessId", "order": "ASCENDING" }, { "fieldPath": "branchId", "order": "ASCENDING" }, { "fieldPath": "createdAt", "order": "DESCENDING" }] },
+    { "collectionGroup": "products", "queryScope": "COLLECTION", "fields": [{ "fieldPath": "businessId", "order": "ASCENDING" }, { "fieldPath": "branchId", "order": "ASCENDING" }, { "fieldPath": "stock", "order": "ASCENDING" }] },
+    { "collectionGroup": "syncQueue", "queryScope": "COLLECTION", "fields": [{ "fieldPath": "businessId", "order": "ASCENDING" }, { "fieldPath": "status", "order": "ASCENDING" }, { "fieldPath": "createdAt", "order": "ASCENDING" }] }
+  ],
+  "fieldOverrides": []
+}

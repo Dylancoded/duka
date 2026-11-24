@@ -1,0 +1,30 @@
+# Flutter and Dart generated files
+dukapos_flutter/.dart_tool/
+dukapos_flutter/.flutter-plugins
+dukapos_flutter/.flutter-plugins-dependencies
+dukapos_flutter/build/
+dukapos_flutter/coverage/
+dukapos_flutter/.pub-cache/
+dukapos_flutter/.pub/
+
+# Android and local machine state
+dukapos_flutter/android/.gradle/
+dukapos_flutter/android/local.properties
+dukapos_flutter/android/key.properties
+dukapos_flutter/android/.cxx/
+dukapos_flutter/android/app/debug/
+dukapos_flutter/android/app/profile/
+dukapos_flutter/android/app/release/
+dukapos_flutter/android/**/*.jks
+dukapos_flutter/android/**/*.keystore
+
+# Node, IDE, and operating system files
+dukapos/firebase/functions/node_modules/
+dukapos_flutter/.idea/
+dukapos_flutter/.vscode/
+.DS_Store
+Thumbs.db
+*.log
+
+# The source bundle copy is redundant; keep the app-scoped config.
+/google-services.json
